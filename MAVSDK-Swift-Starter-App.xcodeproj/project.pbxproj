@@ -15,6 +15,13 @@
 		FA7AE40F231825E70016CB7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7AE40D231825E70016CB7A /* LaunchScreen.storyboard */; };
 		FA7AE41A231825E70016CB7A /* MAVSDK_Swift_Starter_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AE419231825E70016CB7A /* MAVSDK_Swift_Starter_AppTests.swift */; };
 		FA7AE425231825E70016CB7A /* MAVSDK_Swift_Starter_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AE424231825E70016CB7A /* MAVSDK_Swift_Starter_AppUITests.swift */; };
+		FA7AE43E231835870016CB7A /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7AE433231835870016CB7A /* BoringSSL.framework */; };
+		FA7AE440231835870016CB7A /* mavsdk_server.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7AE435231835870016CB7A /* mavsdk_server.framework */; };
+		FA7AE443231835870016CB7A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7AE438231835870016CB7A /* RxSwift.framework */; };
+		FA7AE444231835870016CB7A /* CgRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7AE439231835870016CB7A /* CgRPC.framework */; };
+		FA7AE445231835870016CB7A /* SwiftGRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7AE43A231835870016CB7A /* SwiftGRPC.framework */; };
+		FA7AE446231835870016CB7A /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7AE43B231835870016CB7A /* SwiftProtobuf.framework */; };
+		FA7AE448231835870016CB7A /* MAVSDK_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7AE43D231835870016CB7A /* MAVSDK_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,17 @@
 		FA7AE420231825E70016CB7A /* MAVSDK-Swift-Starter-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAVSDK-Swift-Starter-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7AE424231825E70016CB7A /* MAVSDK_Swift_Starter_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAVSDK_Swift_Starter_AppUITests.swift; sourceTree = "<group>"; };
 		FA7AE426231825E70016CB7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7AE433231835870016CB7A /* BoringSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BoringSSL.framework; path = Carthage/Build/iOS/BoringSSL.framework; sourceTree = "<group>"; };
+		FA7AE434231835870016CB7A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		FA7AE435231835870016CB7A /* mavsdk_server.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mavsdk_server.framework; path = Carthage/Build/iOS/mavsdk_server.framework; sourceTree = "<group>"; };
+		FA7AE436231835870016CB7A /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		FA7AE437231835870016CB7A /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		FA7AE438231835870016CB7A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		FA7AE439231835870016CB7A /* CgRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CgRPC.framework; path = Carthage/Build/iOS/CgRPC.framework; sourceTree = "<group>"; };
+		FA7AE43A231835870016CB7A /* SwiftGRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGRPC.framework; path = Carthage/Build/iOS/SwiftGRPC.framework; sourceTree = "<group>"; };
+		FA7AE43B231835870016CB7A /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/iOS/SwiftProtobuf.framework; sourceTree = "<group>"; };
+		FA7AE43C231835870016CB7A /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		FA7AE43D231835870016CB7A /* MAVSDK_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAVSDK_Swift.framework; path = Carthage/Build/iOS/MAVSDK_Swift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7AE43E231835870016CB7A /* BoringSSL.framework in Frameworks */,
+				FA7AE440231835870016CB7A /* mavsdk_server.framework in Frameworks */,
+				FA7AE443231835870016CB7A /* RxSwift.framework in Frameworks */,
+				FA7AE444231835870016CB7A /* CgRPC.framework in Frameworks */,
+				FA7AE445231835870016CB7A /* SwiftGRPC.framework in Frameworks */,
+				FA7AE446231835870016CB7A /* SwiftProtobuf.framework in Frameworks */,
+				FA7AE448231835870016CB7A /* MAVSDK_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +108,7 @@
 				FA7AE418231825E70016CB7A /* MAVSDK-Swift-Starter-AppTests */,
 				FA7AE423231825E70016CB7A /* MAVSDK-Swift-Starter-AppUITests */,
 				FA7AE3FF231825E60016CB7A /* Products */,
+				FA7AE432231835870016CB7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +154,24 @@
 			path = "MAVSDK-Swift-Starter-AppUITests";
 			sourceTree = "<group>";
 		};
+		FA7AE432231835870016CB7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA7AE433231835870016CB7A /* BoringSSL.framework */,
+				FA7AE439231835870016CB7A /* CgRPC.framework */,
+				FA7AE435231835870016CB7A /* mavsdk_server.framework */,
+				FA7AE43D231835870016CB7A /* MAVSDK_Swift.framework */,
+				FA7AE436231835870016CB7A /* RxBlocking.framework */,
+				FA7AE434231835870016CB7A /* RxCocoa.framework */,
+				FA7AE437231835870016CB7A /* RxRelay.framework */,
+				FA7AE438231835870016CB7A /* RxSwift.framework */,
+				FA7AE43C231835870016CB7A /* RxTest.framework */,
+				FA7AE43A231835870016CB7A /* SwiftGRPC.framework */,
+				FA7AE43B231835870016CB7A /* SwiftProtobuf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +182,7 @@
 				FA7AE3FA231825E60016CB7A /* Sources */,
 				FA7AE3FB231825E60016CB7A /* Frameworks */,
 				FA7AE3FC231825E60016CB7A /* Resources */,
+				FA7AE449231837630016CB7A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,6 +298,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA7AE449231837630016CB7A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/BoringSSL.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CgRPC.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/mavsdk_server.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MAVSDK_Swift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftGRPC.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftProtobuf.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/BoringSSL.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CgRPC.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/mavsdk_server.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MAVSDK_Swift.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftGRPC.framework",
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftProtobuf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA7AE3FA231825E60016CB7A /* Sources */ = {
@@ -438,6 +517,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29J6W54RW6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "MAVSDK-Swift-Starter-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +540,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29J6W54RW6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "MAVSDK-Swift-Starter-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

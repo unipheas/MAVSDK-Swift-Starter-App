@@ -8,15 +8,19 @@
 
 import UIKit
 import CoreData
+import MAVSDK_Swift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let drone = Drone()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // drone.setMavlinkPort(mavlinkPort: "udp://:14550")
+        
         return true
     }
 

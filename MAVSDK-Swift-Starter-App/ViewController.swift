@@ -3,7 +3,7 @@
 //  MAVSDK-Swift-Starter-App
 //
 //  Created by unipheas on 8/29/19.
-//  Copyright © 2019 Titanian Inc. All rights reserved.
+//  Copyright © 2019 ______________. All rights reserved.
 //
 
 import UIKit
